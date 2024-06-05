@@ -1,13 +1,28 @@
+import { Container, Row } from "react-bootstrap";
 import "./App.css";
-import NavBar from "./components/Navbar";
+import NavBar from "./components/Navbar/Navbar";
+import RetailPage from "./pages/RetailPage/RetailPage";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const App: React.FC = () => {
+   // useEffect(() => {
+   //   first
+
+   //   return () => {
+   //     second
+   //   }
+   // }, [third])
+
    return (
-      <div>
-         <NavBar />
-         <div id="app-content">
-            <h1>App</h1>
-         </div>
+      <div id="app">
+         <Container id="app-container" fluid>
+            <Row>
+               <NavBar />
+            </Row>
+            <Row>
+               <RetailPage />
+            </Row>
+         </Container>
       </div>
    );
 };

@@ -1,0 +1,7 @@
+#sidebar {
+   padding: 10px 5px 10px 10px;
+   margin: 0px;
+   background-color: #ffffff;
+   box-shadow: 0 0 15px #e6e6e6;
+   height: calc(100% + 30px);
+}
