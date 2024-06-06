@@ -1,0 +1,17 @@
+#sales-graph {
+   margin: 0px;
+   margin-bottom: 30px;
+   background-color: #ffffff;
+   height: 50%;
+}
+
+#sales-graph-title {
+   padding-left: 10px;
+   padding-top: 10px;
+   text-align: left;
+   font-family: 'Arial, sans-serif';
+   font-size: 15px;
+   color: #000000;
+}
+
+

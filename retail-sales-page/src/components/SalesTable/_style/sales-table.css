@@ -1,0 +1,12 @@
+#sales-table {
+   margin: 0px;
+   background-color: #ffffff;
+   height: 50%;
+}
+
+#sales-table-component {
+      max-width: 100%;
+      max-height: 35vh;
+      overflow: auto;
+      /* box-sizing: border-box; */
+}
