@@ -27,7 +27,7 @@ const SalesGraph: React.FC = () => {
       <Row id="sales-graph">
          <Col>
             <p id="sales-graph-title">Retail Sales</p>
-            <ResponsiveContainer width="100%" height={450}>
+            <ResponsiveContainer width="99%" height={"85%"}>
                <LineChart data={product.sales}>
                   <XAxis
                      dataKey="weekEnding"

@@ -38,14 +38,7 @@ const SalesTable: React.FC = () => {
    return (
       <Row id="sales-table">
          <Col id="sales-table-component">
-            <div>
-               <DataTable
-                  columns={columns}
-                  data={product.sales}
-                  selectableRows
-                  pagination
-               />
-            </div>
+            <DataTable columns={columns} data={product.sales} pagination />
          </Col>
       </Row>
    );

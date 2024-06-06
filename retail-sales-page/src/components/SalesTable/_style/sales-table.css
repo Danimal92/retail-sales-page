@@ -6,9 +6,7 @@
 
 #sales-table-component {
       max-width: 100%;
-      max-height: 40vh;
+      max-height: 35vh;
       overflow: auto;
-      /* border: 10px solid #ccc; */
-      /* padding: 10px; */
-      box-sizing: border-box;
+      /* box-sizing: border-box; */
 }
