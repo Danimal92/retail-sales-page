@@ -1,16 +1,11 @@
 #retail-page {
-   /* padding: 0px; */
-   /* margin: 0px; */
-   height: 82vh;
+   height: 80vh;
 }
 
 #side-bar-col {
-   /* top right bottom left */
    margin: 0px 0px 0px 0px;
-   /* padding: 0px; */
 }
 
 #graph-table-col {
    margin: 0px 0px 0px 0px;
-   /* padding: 0px; */
 }

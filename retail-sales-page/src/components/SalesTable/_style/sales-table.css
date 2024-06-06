@@ -1,6 +1,14 @@
 #sales-table {
    margin: 0px;
    background-color: #ffffff;
-   /* box-shadow: 0 0 15px #e6e6e6; */
    height: 50%;
+}
+
+#sales-table-component {
+      max-width: 100%;
+      max-height: 40vh;
+      overflow: auto;
+      /* border: 10px solid #ccc; */
+      /* padding: 10px; */
+      box-sizing: border-box;
 }
